@@ -8,7 +8,7 @@ export default function Player() {
   const handleSubmit = (e) => {
     // e.preventDefault(); // use only while work with (form) tag
     setDisplayPlayerName(userName.current.value);
-    console.log(userName.current.value);
+    console.log(userName.current.value); 
     userName.current.value = ''
   };
   return (
